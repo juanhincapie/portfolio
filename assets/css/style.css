@@ -23,6 +23,35 @@ header {
     background-position: center;
 }
 
+.bt-full {
+  background: rgb(30,94,212);
+  background: linear-gradient(90deg, rgba(30,94,212,1) 0%, rgba(123,69,218,1) 62%);
+  border-radius: 50px;
+  border: 2px solid #7b45da;
+  color: white; 
+}
+
+.bt-full:hover {
+  color: white;
+  border-radius: 50px;
+  border: 2px solid #7b45da;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-radius: 50px;
+  border: 2px solid #7b45da;
+}
+
+.btn-outline-light:hover {
+  background: rgb(30,94,212);
+  background: linear-gradient(90deg, rgba(30,94,212,1) 0%, rgba(123,69,218,1) 62%);
+  border-radius: 50px;
+  border: 2px solid #7b45da;
+  color: white;
+}
+
+
 .font-title-1 {
     width: 500px;
     position: relative;
@@ -116,7 +145,7 @@ h3 {
 }
 
 #myImg {
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
   }
@@ -203,3 +232,4 @@ h3 {
       width: 100%;
     }
   }
+  
